@@ -3,7 +3,7 @@ LABEL maintainer "hyma"
 COPY package*.json /moksha
 RUN npm install
 COPY . .
-RUN npm run build
+RUN npm run 
 CMD ["mpm","start"]
 
 
