@@ -4,6 +4,7 @@ COPY package*.json /moksha
 RUN npm install
 COPY . .
 RUN npm run 
-CMD ["mpm","start"]
+CMD ["npm","start"]
+
 
 
